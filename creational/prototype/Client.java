@@ -6,17 +6,15 @@ package prototype;
 /**
  * @author tianyi
  * 2007-11-6
- * ионГ12:18:00
+ * О©╫О©╫О©╫О©╫12:18:00
  */
 public class Client {
-	//private static PanadaToClone thisPanada,clonePanada;
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) throws Exception{
 		
 		PanadaToClone thisPanada,clonePanada;
-		// TODO Auto-generated method stub
 		thisPanada=new PanadaToClone(12,23,45);
 		thisPanada.setName(new String("haozi"));
 		clonePanada=(PanadaToClone)thisPanada.clone();
