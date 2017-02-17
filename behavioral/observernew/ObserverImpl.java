@@ -1,13 +1,17 @@
 package observernew;
 
 public class ObserverImpl implements Observer {
-
+	private String name ;
+	
+	public  ObserverImpl(String name) {
+		this.name = name;
+	}
+	
 	@Override
 	public void update(Subject subject) {
-		// TODO Auto-generated method stub
-		//(SubjectImpl)
+		
 		int money = subject.getAddMoney();
-		System.out.println(" phone message:you add money "+money);
+		System.out.println(name+": subject add money "+money);
 	}
 
 }

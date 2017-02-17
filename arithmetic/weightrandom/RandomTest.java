@@ -16,10 +16,10 @@ public class RandomTest {
 	 */
 	public static void main(String[] args) throws InterruptedException {
 		
-		Thread.sleep(50000);
+		Thread.sleep(3000);
 		for (int i = 0 ;i < 1000;i ++) {
 		
-		ClientThread clientThread = new ClientThread();
+		RandomThread clientThread = new RandomThread(i);
 		clientThread.start();
 		}
 
