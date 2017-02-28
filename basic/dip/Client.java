@@ -1,14 +1,15 @@
 /**
+
  * 
  */
 package dip;
 
 /**
  * @author chenminghao Feb 18, 2009 8:42:47 PM Dependence inversion Principle
- *         ÒÀÀµµ¹×ªÔ­Ôò ÊÇcom corba javabean ejb µÈÉè¼ÆÄ£ĞÍºóÌ¨µÄÉè¼ÆË¼Ïë ÈıÖÖñîºÏ¹ØÏµ ÁãñîºÏ ¾ßÌåñîºÏ ³éÏóñîºÏ
+ *         ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×ªÔ­ï¿½ï¿½ ï¿½ï¿½com corba javabean ejb ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½Íºï¿½Ì¨ï¿½ï¿½ï¿½ï¿½ï¿½Ë¼ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¹ï¿½Ïµ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  *         abstractions should not depeng upon details,details should depend
- *         upon abstractions£º³éÏó²»Ó¦µ±ÒÀÀµÏ¸½Ú£¬Ï¸½ÚÓ¦¸ÃÒÀÀµ³éÏó program to an interface not an
- *         implemenation :Õë¶Ô½Ó¿Ú±à³Ì£¬²»ÒªÕë¶ÔÊµÏÖ±à³Ì
+ *         upon abstractionsï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¸ï¿½Ú£ï¿½Ï¸ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ program to an interface not an
+ *         implemenation :ï¿½ï¿½Ô½Ó¿Ú±ï¿½Ì£ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½Êµï¿½Ö±ï¿½ï¿½
  */
 public class Client {
 

@@ -1,12 +1,12 @@
 /**
  * 
  */
-package structuralpattern.facade;
+package facade;
 
 /**
  * @author tianyi
  * 2007-11-2
- * обнГ01:48:12
+ * О©╫О©╫О©╫О©╫01:48:12
  */
 public class Sensor {
 	/**

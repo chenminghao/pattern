@@ -1,12 +1,12 @@
 /**
  * 
  */
-package structuralpattern.facade;
+package facade;
 
 /**
  * @author tianyi
  * 2007-11-2
- * обнГ01:40:48
+ * О©╫О©╫О©╫О©╫01:40:48
  */
 public class Client {
 	private static SecurityFacade facde = new SecurityFacade();

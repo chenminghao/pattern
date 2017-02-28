@@ -1,12 +1,12 @@
 /**
  * 
  */
-package structuralpattern.facade;
+package facade;
 
 /**
  * @author tianyi
  * 2007-11-2
- * обнГ01:59:51
+ * О©╫О©╫О©╫О©╫01:59:51
  */
 public class SecurityFacade {
 	 private Camera camera1,camera2;

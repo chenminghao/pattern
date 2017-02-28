@@ -1,12 +1,12 @@
 /**
  * 
  */
-package structuralpattern.facade;
+package facade;
 
 /**
  * @author tianyi
  * 2007-11-2
- * обнГ01:53:46
+ * О©╫О©╫О©╫О©╫01:53:46
  */
 public class Alarm {
 	/**
