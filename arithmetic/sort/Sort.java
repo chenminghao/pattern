@@ -30,7 +30,7 @@ public class Sort {
 	 */
 	public static void SelectSort() {
 		
-		int[] intArrays = {3,2,1};
+		int[] intArrays = {3,2,1,0};
 		for (int i = 0; i < intArrays.length-1 ; i++) {
 			for (int j = i+1 ; j <intArrays.length ; j++) {
 				if (intArrays[i] > intArrays[j]) {
@@ -47,7 +47,23 @@ public class Sort {
 		}
 		
 	}
-	
+	public static void insertSort() {
+		int[] intArrays = {3,2,1};
+		int n = intArrays.length;
+		for (int i = 0 ; i < n - 1; i ++) {
+			for (int j = i + 1; j < n- i - 1; j ++) {
+				if (intArrays[i] > intArrays[j]) {
+					int temp = intArrays[i];
+					intArrays[i] = intArrays[j];
+					intArrays[j] = temp;
+				}
+				}
+			}
+		for (int i = 0; i < intArrays.length; i++) {
+			System.out.println(intArrays[i]);
+		}
+		
+	}
 	public static void BubbleSort() {
 		int[] intArrays = {3,2,1};
 		for (int i = 0; i < intArrays.length-1; i++) {
@@ -69,11 +85,15 @@ public class Sort {
 			System.out.println(intArrays[i]);
 		}
 	}
+	public static void heapSort() {
+	
+		
+	}
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		//Sort.BubbleSort();
-		swapTwo(1,2);
+		SelectSort();
 	}
 }
